@@ -86,11 +86,11 @@ holdings_file = st.sidebar.file_uploader(
 )
 
 demo = pd.DataFrame([
-    {"Stock": "RELIANCE", "Sector": "Energy", "Quantity": 10, "Buy Price": 1200},
-    {"Stock": "TCS", "Sector": "IT", "Quantity": 5, "Buy Price": 3000},
-    {"Stock": "INFY", "Sector": "IT", "Quantity": 15, "Buy Price": 1400},
-    {"Stock": "HDFCBANK", "Sector": "Banking", "Quantity": 12, "Buy Price": 1500},
-    {"Stock": "ITC", "Sector": "FMCG", "Quantity": 20, "Buy Price": 400},
+    {"Stock": "RELIANCE", "Sector": "Energy", "Quantity": 10, "Buy Price": 1488.50},
+    {"Stock": "TCS", "Sector": "IT", "Quantity": 5, "Buy Price": 3035.30},
+    {"Stock": "INFY", "Sector": "IT", "Quantity": 15, "Buy Price": 1493.80},
+    {"Stock": "HDFCBANK", "Sector": "Banking", "Quantity": 12, "Buy Price": 998.15},
+    {"Stock": "ITC", "Sector": "FMCG", "Quantity": 20, "Buy Price": 418.75},
 ])
 
 if holdings_file is not None:
